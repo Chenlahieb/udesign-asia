@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="Images/logo.png">
+<title>Contact — UDesign.Asie</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav-inner">
+    <a class="logo" href="index.html"><img src="Images/logo.png" alt="UDesign.Asie logo">UDesign.Asie</a>
+    <nav id="primary-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+    <a class="cta header-cta" href="contact.html">Start a Project</a>
+    <button class="icon-btn" id="menuToggle" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+  </div>
+</header>
+
+<main id="contact" class="page">
+  <section class="block" style="padding-top:64px; border-bottom:none;">
+    <div class="wrap">
+      <div class="eyebrow"><span class="label">Contact</span></div>
+      <h2 class="section-title">Tell us about your project.</h2>
+
+      <div class="contact-grid">
+        <form id="contactForm">
+          <div class="field">
+            <label for="name">Full name</label>
+            <input id="name" type="text" placeholder="Your name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="you@email.com" required>
+          </div>
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input id="phone" type="tel" placeholder="+855 ...">
+          </div>
+          <div class="field">
+            <label for="message">Project details</label>
+            <textarea id="message" placeholder="Tell us about the site, the building type, and your timeline."></textarea>
+          </div>
+          <button class="cta" id="sendBtn" type="submit">Send Message</button>
+          <p class="form-note">This form is a placeholder — connect it to email or a backend before launch.</p>
+        </form>
+
+        <div>
+          <div class="info-block">
+            <span class="label">Studio</span>
+            <div class="value">UDesign.Asie</div>
+            <div class="value muted">Sangkat Svay Dongkum, 1204, Krong Siem Reap, Siem Reap, Cambodia</div>
+          </div>
+          <div class="info-block">
+            <span class="label">Speak to the right person</span>
+            <ul class="contact-team-list">
+              <li><span class="ct-name">Sim Sol</span><span class="ct-role">Sales</span><a href="tel:+855928361900">(+855) 92 836 190</a></li>
+              <li><span class="ct-name">Nuon Neam</span><span class="ct-role">Engineering</span><a href="tel:+855692116810">(+855) 69 211 681</a></li>
+              <li><span class="ct-name">Chenla Hieb</span><span class="ct-role">Architecture</span><a href="tel:+855142891890">(+855) 14 289 189</a></li>
+              <li><span class="ct-name">Somavatei Phea</span><span class="ct-role">Accounting</span><a href="tel:+855954030090">(+855) 95 403 009</a></li>
+            </ul>
+          </div>
+          <div class="info-block">
+            <span class="label">Email</span>
+            <div class="value muted"><a href="mailto:udesign.asie@gmail.com">udesign.asie@gmail.com</a></div>
+            <div class="value muted"><a href="mailto:info@udesign.asie.com">info@udesign.asie.com</a></div>
+          </div>
+          <div class="info-block">
+            <span class="label">Follow</span>
+            <div class="social-row">
+              <a href="https://telegram.me/CHENLAheab" target="_blank" rel="noopener" aria-label="Telegram" class="social-icon dark">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 4 3 11l6 2.2M21 4l-4 16-8-5.8M21 4 9 13.2"/></svg>
+              </a>
+              <a href="https://www.youtube.com/channel/UCW3fow8bRzKAXFt4u_-RCkQ" target="_blank" rel="noopener" aria-label="YouTube" class="social-icon dark">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2.5" y="6" width="19" height="12" rx="3"/><path d="M10.5 9.5 15 12l-4.5 2.5v-5Z" fill="currentColor" stroke="none"/></svg>
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=61576787476251" target="_blank" rel="noopener" aria-label="Facebook" class="social-icon dark">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 8.5h2V5h-2c-2.2 0-4 1.8-4 4v2H9v3.5h2V21h3.5v-6.5H17l.5-3.5h-3V9c0-.5.4-1 1-1Z"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="info-block">
+            <span class="label">Hours</span>
+            <div class="value muted">Mon–Sat, 8:00–17:00</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot-grid">
+    <div class="foot-col foot-brand">
+      <a class="logo" href="index.html"><img src="Images/logo.png" alt="UDesign.Asie logo">UDesign.Asie</a>
+      <p class="foot-tagline">Architecture &amp; Construction, Siem Reap, Cambodia.</p>
+      <div class="social-row">
+        <a href="https://telegram.me/CHENLAheab" target="_blank" rel="noopener" aria-label="Telegram" class="social-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 4 3 11l6 2.2M21 4l-4 16-8-5.8M21 4 9 13.2"/></svg>
+        </a>
+        <a href="https://www.youtube.com/channel/UCW3fow8bRzKAXFt4u_-RCkQ" target="_blank" rel="noopener" aria-label="YouTube" class="social-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2.5" y="6" width="19" height="12" rx="3"/><path d="M10.5 9.5 15 12l-4.5 2.5v-5Z" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=61576787476251" target="_blank" rel="noopener" aria-label="Facebook" class="social-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 8.5h2V5h-2c-2.2 0-4 1.8-4 4v2H9v3.5h2V21h3.5v-6.5H17l.5-3.5h-3V9c0-.5.4-1 1-1Z"/></svg>
+        </a>
+        <a href="mailto:udesign.asie@gmail.com" aria-label="Email" class="social-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 6.5 9 6.5 9-6.5"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="foot-col">
+      <span class="label">Navigate</span>
+      <div class="foot-links">
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+
+    <div class="foot-col">
+      <span class="label">Contact Team</span>
+      <ul class="foot-contact-list">
+
+        <li><span class="name">Nuon Neam</span><span class="role">Engineering</span><a href="tel:+855692116810">(+855) 69 211 681</a></li>
+        <li><span class="name">Chenla Hieb</span><span class="role">Architecture</span><a href="tel:+855142891890">(+855) 14 289 189</a></li>
+
+      </ul>
+    </div>
+
+    <div class="foot-col">
+      <span class="label">Email</span>
+      <a class="foot-email" href="mailto:udesign.asie@gmail.com">udesign.asie@gmail.com</a>
+      <a class="foot-email" href="mailto:info@udesign.asie.com">info@udesign.asie.com</a>
+    </div>
+  </div>
+  <div class="wrap foot-bottom">
+    © 2026 UDesign.Asie — Architecture &amp; Construction, Siem Reap, Cambodia.
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
